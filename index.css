@@ -1,0 +1,158 @@
+body {
+	margin: 18px;
+	padding: 0;
+}
+.main_content {
+	position: relative;
+	justify-content: center;
+	max-width: 984px;
+	height: 1614px;
+	margin: 0 auto;
+	background: #f6f5f3;
+	overflow: hidden;
+}
+.header {
+	position: relative;
+	height: 130px;
+}
+.logo {
+	position: absolute;
+	top: 0;
+	right: 74px;
+}
+.about_auto {
+	margin: 33px auto 0;
+	max-width: 840px;
+	position: relative;
+}
+.about_content {
+	max-width: 644px;
+	margin: 0 auto;
+}
+.about_text {
+	font-family: 'Nunito', sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	height: 156px;
+	margin: 0;
+}
+.cars {
+	margin: 45px auto 0;
+}
+.introduce_video {
+	position: relative;
+	width: 641px;
+	height: 361px;
+	background: url('layout/src/Video_snapshot.png');
+}
+.shape {
+	margin-top: 56px;
+	width: 642px;
+	height: 43px;
+	background-color: rgba(41, 54, 60, .7);
+	color: #fff;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	font-size: 29px;
+	font-weight: 400;
+}
+.play {
+	position: relative;
+	margin: 90px auto 0;
+	width: 128px;
+	height: 128px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 1px rgba(255, 90, 0, 0.8);
+	background-color: #ffdb4a;
+}
+.play_butt {
+	margin: 35px 48px 0;
+}
+.button {
+	width: 60px;
+	height: 60px;
+	box-shadow: 1px 1px 1px rgba(255, 90, 0, 0.8);
+	background-color: #ffdb4a;
+	border-radius: 50%;
+	position: absolute;
+	top: 180px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.right {
+	right: 0;
+}
+.button:hover, .play:hover {
+	opacity: 0.8;
+}
+.how_to {
+	margin: 72px auto 0;
+	width: 909px;
+	text-align: center;
+}
+.about_to {
+	font-family: 'Nunito', sans-serif;
+	font-size: 47px;
+	font-weight: 400;
+}
+.why_to {
+	margin-top: 46px;
+	display: flex;
+	justify-content: space-between;	
+}
+.why_to > * {
+	display: flex;
+	flex-direction: column;
+	float: left;
+	align-items: flex-start;
+}
+.why_to_title {
+	text-align: left;
+	font-family: 'Nunito', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	max-width: 206px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.why_to_logo {
+	height: 84px;
+	display: flex;
+}
+.why_to_text {
+	font-family: 'Nunito', sans-serif;
+	text-align: left;
+	font-size: 16px;
+	font-weight: 400;
+}
+footer {
+	margin: 76px auto;
+}
+.footer_text {
+	display: block;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	font-size: 42px;
+	font-weight: 400;
+}
+.try_button {
+	margin: 64px auto;
+	width: 317px;
+	height: 70px;
+	background-color: #000000;
+    background-image: linear-gradient(to top, #ffdb00 0%, #ffe34a 100%);
+    border-radius: 10px;
+	font-size: 36px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.try_button:hover {
+	background-color: rgba(255, 255, 255, 0.18);
+    background-image: linear-gradient(to top, #ffdb00 0%, #fff09e 100%);
+}
